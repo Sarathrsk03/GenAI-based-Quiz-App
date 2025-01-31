@@ -41,8 +41,6 @@ def generateSyntheticData(topic:str):
 
 def addToDataset(topic:str):
     data = generateSyntheticData(topic)
-    print(data)
-    print(type(data))
     with open('dataset.csv', 'w') as file:
         writer = csv.writer(file)
         for i in data:
