@@ -1,6 +1,9 @@
 import gradio as gr
 import llmConnect
 import csv
+from dotenv import load_dotenv
+import os 
+
 
 def generate_questions(topic):
     llmConnect.addToDataset(topic)
