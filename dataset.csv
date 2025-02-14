@@ -1,15 +1,15 @@
-1,What is the primary difference between a list and a tuple in Python?,"Lists are immutable, while tuples are mutable.","Lists use parentheses, while tuples use square brackets.","Lists are mutable, while tuples are immutable.","Lists can only store integers, while tuples can store any data type.",3
-2,Which of the following is NOT a valid built-in function in Python?,len(),print(),sqrt(),type(),3
-3,What does the 'with' statement do in Python?,It defines a loop.,It simplifies exception handling by automatically managing resources.,It declares a new variable.,It imports a module.,2
-4,What is a decorator in Python?,A design pattern used for GUI development.,A way to add functionality to an existing function.,A type of comment used for documentation.,A method for creating classes.,2
-5,What is the purpose of the 'else' block in a 'try-except' statement?,To handle any exception that was not caught by the 'except' block.,To define an alternative code block to be executed if no exception occurs in the 'try' block.,To specify the type of exception to be caught.,It is not allowed to use 'else' block with 'try-except',2
-6,Which of the following is an example of duck typing in Python?,Checking the type of an object before calling its methods.,Defining interfaces that classes must implement.,Using static type hints for variables.,Focusing on an object's behavior rather than its type.,4
-7,What is the difference between '==' and 'is' operators in Python?,"'==' compares values, while 'is' compares memory addresses.","'==' compares memory addresses, while 'is' compares values.","Both compare values, but 'is' is faster.","Both compare memory addresses, but '==' is more reliable.",1
-8,What is a generator in Python?,A function that generates random numbers.,A function that returns an iterator.,A function that optimizes code execution.,A function that automatically documents code.,2
-9,How can you achieve multithreading in Python?,By using the 'threading' module.,By using the 'multiprocessing' module.,By using the 'asyncio' module.,Python does not support multithreading.,1
-10,What is the purpose of the `__init__` method in a Python class?,To destroy an object when it is no longer needed.,To initialize the attributes of an object.,To define the inheritance of a class.,To declare static variables.,2
-11,Which data structure in Python is based on a key-value pair?,List,Tuple,Set,Dictionary,4
-12,What does the term 'PEP 8' refer to in Python?,A Python library for scientific computing.,A style guide for Python code.,A specific version of the Python interpreter.,A Python enhancement proposal.,2
-13,How do you handle exceptions in Python?,Using if-else statements,Using try-except blocks,Using switch statements,Using goto statements,2
-14,What is the purpose of the `lambda` keyword in Python?,To define a named function,To create an anonymous function,To import a module,To declare a class,2
-15,"What is the result of `[1, 2, 3] + [4, 5, 6]` in Python?",15,"[1, 2, 3, 4, 5, 6]","[5, 7, 9]",Error,2
+1,"In NCIS, what is the full name of the character Gibbs?",Leroy Jethro Gibbs,Lee Jonas Gibbs,Leon James Gibbs,Lance Jacob Gibbs,1
+2,Which former NCIS agent joined a private security firm run by Mike Franks?,Tony DiNozzo,Ziva David,Kate Todd,Timothy McGee,1
+3,What is Abby Sciuto's profession within NCIS?,Forensic Scientist,Medical Examiner,Intelligence Analyst,Special Agent,1
+4,"Who was the director of NCIS for many seasons, often clashing with Gibbs but ultimately respected him?",Jenny Shepard,Leon Vance,Tom Morrow,Clayton Jarvis,2
+5,Which agent was known for their extensive knowledge of movies and often used film references in their investigations?,Timothy McGee,Anthony DiNozzo,Ziva David,Nick Torres,2
+6,What is Gibbs's signature method of communication when he wants to get someone's attention?,A gentle cough,A head slap,A loud whistle,A direct order,2
+7,Which character on NCIS is known for their 'Gibbs' Rule Number...?',Abby Sciuto,Tony DiNozzo,Ducky Mallard,Leroy Jethro Gibbs,4
+8,What is Dr. Donald Mallard's primary role at NCIS?,Forensic Psychologist,Medical Examiner,Evidence Technician,Criminal Profiler,2
+9,Which NCIS team member had a background with Mossad?,Kate Todd,Ziva David,Ellie Bishop,Paula Cassidy,2
+10,What is the name of the coffee shop that is frequently visited by the NCIS team?,Joe's Diner,Kelly's Cafe,Tony's Bistro,None of the above,4
+11,What is the first name of the NCIS agent Bishop?,Eleanor,Emily,Elizabeth,Erica,1
+12,Which actress played NCIS director Jenny Shepard?,Lauren Holly,Sasha Alexander,Cote de Pablo,Rocky Carroll,1
+13,What is the make and model of Gibbs's boat that he builds in his basement?,A Chris-Craft Runabout,A Canoe,A Sailboat,None of the above,3
+14,Which character replaced Ziva David as a main cast member?,Michelle Lee,Sarah Porter,Ellie Bishop,Paula Cassidy,3
+15,What is the name of Ducky's mother?,Victoria,Emily,Olivia,Jennifer,1

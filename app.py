@@ -95,4 +95,28 @@ with gr.Blocks() as demo:
                 outputs=[score]
             )
 
+    with gr.Row():
+        with gr.Column():
+            report = gr.Textbox(
+                label="Report",
+                placeholder="Your report will be displayed here"
+            )
+            
+            def generate_report(answers):
+                data = readDataset()
+                report = []
+                for i in range(len(answers)):
+                    question = data[i][1]
+                    user_answer = answers[i]
+                    correct_answer = data[i][1+int(data[i][6])]
+                    report.append(f"Q{i+1}: {question}\nYour answer: {user_answer}\nCorrect answer: {correct_answer}\n")
+                return "\n".join(report)
+            
+            reportGen = gr.Button(value="Generate Report")
+            reportGen.click(
+                generate_report,
+                inputs=[user_answers],
+                outputs=[report]
+            )
+
 demo.launch()
